@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(52, 46, 46);
+}
+
+caption {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+span {
+    color: #00ffa2;
+}
+
+#tab-item {
+    width: 50%;
+    background-color: beige;
+    margin: 50px 420px;
+    padding: 30px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+
+}
+
+thead th {
+    background-color: #35846a;
+    letter-spacing: 1px;
+    padding: 20px;
+    color: azure;
+    text-transform: uppercase;
+}
+
+tbody td {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+tbody td,
+tfoot td {
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(88, 88, 98);
+    color: antiquewhite;
+}
+
+tbody td:nth-last-child(1),
+tfoot td:nth-child(1),
+thead th:nth-last-child(1) {
+    text-align: right;
+}
+
+tfoot td:nth-child(1) {
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+tfoot td:nth-last-child(1) {
+    text-align: right;
+    background-color: rgb(194, 48, 48);
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+tfoot tr:nth-last-child(1) {
+    border-top: 1px solid red;
+}
+
+thead tr:nth-last-child(1) {
+    border-bottom: 3px solid red;
+}
+
+tbody td:nth-last-child(1),
+thead th:nth-last-child(1),
+tfoot td:nth-last-child(1) {
+    border-left: 1px solid red;
+}
+
+tbody tr:hover {
+    background-color: #70c563;
+}
+
+tfoot td:nth-child(1) {
+    font-size: larger;
+}
